@@ -631,7 +631,8 @@ nav {
 }
 
 .blog .right-side address span {
-    display: block;
+	color:#000000;
+	font-size:20px;
 }
 
 .form-control:focus {
@@ -1153,7 +1154,7 @@ footer .img-thumbnail {
 }
 
 .support h3 {
-    color: #959595;
+    color: #000000;
     font-size: 36px;
     padding-bottom: 50px;
     font-weight: 600;
@@ -1162,8 +1163,8 @@ footer .img-thumbnail {
 }
 
 .support p {
-    color: #707070;
-    font-size: 16px;
+    color: #000000;
+    font-size: 26px;
     font-weight: 400;
     padding-bottom: 20px;
     text-align: left;
@@ -1171,8 +1172,8 @@ footer .img-thumbnail {
 }
 
 .support p a {
-    color: #707070;
-    border-bottom: 1px solid #707070;
+    color: #000000;
+    border-bottom: 1px solid #000000;
 }
 
 .support .figure {
@@ -1734,7 +1735,7 @@ footer .img-thumbnail {
 }
 
 .blog-single .post p {
-    color: #646464;
+    color: #000000;
 }
 
 .blog-single .post .col1,
@@ -1864,8 +1865,8 @@ footer .img-thumbnail {
         font-size: 26px;
     }
     .blog .right-side h5 {
-        font-size: 14px;
-        letter-spacing: 0.5px;
+        font-size: 24px;
+        letter-spacing: 1px;
         line-height: 25px;
         padding-bottom: 15px;
     }
@@ -1982,6 +1983,7 @@ footer .img-thumbnail {
         padding: 0;
         line-height: 30px;
         padding-bottom: 10px;
+	
     }
     .mystories-page h2 {
         font-size: 32px;
@@ -2608,4 +2610,5 @@ footer .img-thumbnail {
     .blog-single h2 {
         font-size: 22px;
     }
+
 }

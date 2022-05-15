@@ -45,9 +45,9 @@ h4,
 h5,
 h6,
 ul {
-    margin: 0px;
-    padding: 0px
-}
+    margin: 6px;
+    padding: 6px
+}s
 
 ul {
     list-style-type: none;
@@ -187,6 +187,8 @@ nav {
 }
 
 .nav-link {
+	font-family:Brush Script MTs, cursive;
+	font-size: 50px
     display: block;
     padding: .1rem 1rem;
 }
@@ -224,14 +226,20 @@ nav {
     border: none;
     color: white;
     font-weight: 200;
-    font-size: 14px;
+  <!--font-size: 14px;-->
+	
     letter-spacing: 1.5px;
     background-color: transparent;
-    font-family: 'Playfair Display', serif;
+   <!-- font-family: 'Playfair Display', serif;-->
+	font-family;
+	font-size: 40px; 
+    
 }
 
 .carousel .carousel-inner img {
     width: 100%;
+    font-family;
+	font-size: 40px; 
     height: 100vh;
     object-fit: cover;
 }
@@ -263,21 +271,22 @@ nav {
 .carousel-caption {
     top: 40%;
     bottom: auto;
-    font-family: 'Playfair Display', serif;
+    font-family: cursive;
+	font-size:35px;
 }
 
 .carousel-caption h1 {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 1000;
     text-transform: uppercase;
 }
 
 .carousel-caption .lead {
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-family: 'Bradley Hand', cursive;
 }
 
 .carousel-caption .btn-primary,
@@ -299,7 +308,7 @@ nav {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .carousel-caption .btn-primary span:after {
@@ -308,7 +317,7 @@ nav {
     opacity: 0;
     top: -13px;
     right: -20px;
-    transition: 0.5s;
+    transition: 0.2s;
     font-size: 28px;
 }
 
@@ -363,8 +372,7 @@ nav {
     font-size: 17px;
     font-weight: 300;
     text-decoration: underline;
-    font-family: 'Playfair Display', serif;
-}
+    font-family: 'Playfair Display', serif
 
 #portfolio .box-1 .overlay {
     position: absolute;
@@ -508,9 +516,9 @@ nav {
 }
 
 .left-side p {
-    font-size: 16px;
+    font-size: 12px;
     color: #969696;
-    font-family: 'Playfair Display', serif;
+    font-family: ';
 }
 
 .blog .left-side h4 {
@@ -1460,7 +1468,7 @@ footer .img-thumbnail {
 
 .about-page p {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 35px;
     color: #707070;
     text-align: left;
@@ -1809,18 +1817,18 @@ footer .img-thumbnail {
     }
     .carousel-caption .btn-primary,
     .carousel-caption .btn-primary:not(:disabled):not(.disabled):active {
-        font-size: 14px;
+        font-size: 10px;
         width: 160px;
         padding: 10px 30px;
     }
     .carousel-caption h1 {
-        font-size: 44px;
+        font-size: 35px;
     }
     .carousel-caption .lead {
         letter-spacing: 3px;
     }
     #portfolio h2 {
-        font-size: 32px;
+        font-size: 20spx;
         padding: 40px 0;
     }
     #portfolio .box-1 .overlay,

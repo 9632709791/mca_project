@@ -227,19 +227,19 @@ nav {
     color: white;
     font-weight: 200;
   <!--font-size: 14px;-->
-	
+
     letter-spacing: 1.5px;
     background-color: transparent;
    <!-- font-family: 'Playfair Display', serif;-->
 	font-family;
-	font-size: 40px; 
-    
+	font-size: 40px;
+
 }
 
 .carousel .carousel-inner img {
     width: 100%;
     font-family;
-	font-size: 40px; 
+	font-size: 40px;
     height: 100vh;
     object-fit: cover;
 }
@@ -664,14 +664,12 @@ nav {
     border-color: #f9e43f;
 }
 
-/*====================
-       Footer
-====================*/
+
 
 footer {
     color: #ffffff;
     padding-top: 40px;
-    background-image: url('../images/footer-bg-image.jpg');
+    background-image: url('../images/dark_bg.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -734,7 +732,7 @@ footer .img-thumbnail {
 }
 .d-block img {
   max-width: 100%;
-  
+
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -1991,7 +1989,7 @@ footer .img-thumbnail {
         padding: 0;
         line-height: 30px;
         padding-bottom: 10px;
-	
+
     }
     .mystories-page h2 {
         font-size: 32px;

@@ -16,6 +16,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <script>
+        function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+
+    </script>
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -37,7 +50,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Destinations </a>
+                        <a class="nav-link" href="destinations.html">Destinations </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="food.html">Food</a>
@@ -57,22 +70,23 @@
   <div class="container">
    <h3 style="color:black;">Contact Us</h3>
 
-             <p align="center">If you have any questions on places of Chikkamagaluru please feel free to contact us,our team will get in contact with you.</p>
+             <p style="text-align:center;">If you have any questions on places of Chikkamagaluru please feel free to contact us,our team will get in contact with you.</p>
 
     </div>
 <div class="container py-5 main" style="background-color:black;">
       <div class="row" style="background-color:black;">
           <div class="col-lg-12" >
-              <form>
+              <form name="form1">
                   <div class="form-group row">
                       <div class="col-lg-6">
                           <input type="text" class="form-control" placeholder="Your Name" required>
                       </div>
                           <div class="col-lg-6">
-                          <input type="text" class="form-control" placeholder="Your Email id" required>
+                            <input type='email' pattern=".+@gmail\.com" placeholder="email id" name='text1'/>
+                           <!-- <input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/> -->
                       </div>
                       <div class="col-lg-12">
-                          <input type="number" class="form-control" placeholder="Your Phone Number" required>
+                          <input type="number" class="form-control" placeholder="Your Phone Number only" required>
                       </div>
                   </div>
                   <div class="form-group row">
@@ -82,7 +96,7 @@
                   </div>
 				  <div class="row">
                                         <div class="col-xs-12 col-md-12 form-group">
-                                            <button class="btn btn-success" type="submit"> Submit</button>
+                                            <input class="btn btn-success" type="submit" name="submit" value="submit" > Submit</input>
                                         </div>
 
               </form>
@@ -93,10 +107,13 @@
  <br>
  <br>
 
+ <div class="container py-5 main">
+   
 
- <div align="center">
- <section class="blog">
-  <div class="col-lg-6 col-md-12"style="background-image:url('file:///C:/Users/hemanthkumar.r/Desktop/ckmlandofhills-master/media/explores/IMG_20200605_125143_598.jpg');border:1px solid black">
+
+    <div align="center">
+    <section class="blog">
+    <div class="col-md-6 col-md-12" style="background-image:url('file:///C:/Users/hemanthkumar.r/Desktop/ckmlandofhills-master/media/explores/IMG_20200605_125143_598.jpg');border:1px solid black">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="right-side">
@@ -104,15 +121,15 @@
                                 <figure>
                                     <img src="images/bgc.jpg" alt="">
                                 </figure>
-<h5>
-The information about all the places in chikkamagaluru can be found.
-The unique aspects that chikkamagaluru has offering,
-in finding the hidden places that only few know about.
-The restaurant recomendations,hotel booking,the homestay bookings
-	We help you in making your trip more easier
-	</h5>
-<div align="left">
-<p>Follow us on social media:</p>
+                                    <h5>
+                                    The information about all the places in chikkamagaluru can be found.
+                                    The unique aspects that chikkamagaluru has offering,
+                                    in finding the hidden places that only few know about.
+                                    The restaurant recomendations,hotel booking,the homestay bookings
+	                                We help you in making your trip more easier
+	                                </h5>
+                                <div align="left">
+                                <p>Follow us on social media:</p>
                                 <a href="#" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 
 
@@ -137,9 +154,55 @@ The restaurant recomendations,hotel booking,the homestay bookings
                         </div>
                     </div>
                 </div>
-            </div>
+        
     </section>
 	</div>
+
+    <div class="row">
+        <div class="col-md-12" >
+     <main>
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h4 class="faq-page">What is an FAQ Page?</h4>
+                <!-- faq answer -->
+                <div>
+                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.
+                        Perspiciatis, porro!</h6>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h4 class="faq-page">Why do you need an FAQ page?</h4>
+                <!-- faq answer -->
+                <div>
+                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.
+                        Perspiciatis, porro!</h6>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+                <h4 class="faq-page">Does it improves the user experience of a website?</h4>
+                <!-- faq answer -->
+                <div>
+                    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.
+                        Perspiciatis, porro!</h6>
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+    </div>
+
 	</div>
 
 

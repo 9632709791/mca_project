@@ -16,6 +16,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></scrip>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+
+    </script>
+    <script src="main.js"></script>
+    
+    <style type="text/css">
+        body{
+          background:white;
+        }
+        .header{
+          border-radius: 10px 10px 0px 0px;
+          padding: 5px 0px;
+          background:black;
+          color:white;
+          width: 100%;
+          display: flex;
+          align-content:center;
+          justify-content:center;
+        }
+        .faq-item{
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+        .faq-body{
+          display: none;
+          margin-top: 10px;
+        }
+        .faq-wrapper{
+          width: 80%;
+          margin: 0 auto;
+        }
+        .faq-inner{
+          padding: 10px;
+          background: aliceblue;
+        }
+        .faq-plus{
+          float: right;
+          font-size: 1em;
+          line-height: 0.5em;
+          cursor: pointer;
+        }
+        hr{
+          background-color: gray;
+        }
+      </style>
+
 
 </head>
 
@@ -97,9 +155,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 34K</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>It was a awesome weather and is one of thr besutiful place.</p></div></div>
+                            <div class="container">
+        <div class="row">
+          <div class="faq-wrapper">
+            <div class="faq-inner">
+              <div class="faq-item">
+                <h5>
+                  Review 
+                  <span class="faq-plus">&plus;</span>
+                </h5>
+                <div class="faq-body">
+                 In the destination page we already given the map link(visit with map logo) which connects the particular place from your current place. 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <script type="text/javascript">
+        $(".faq-plus").on('click',function(){
+          $(this).parent().parent().find('.faq-body').slideToggle();
+        });
+      </script>
+    </body>
                             <a href="https://www.google.co.in/maps/place/Mullayanagiri+Peak/@13.3911296,75.7193376,725m/data=!3m1!1e3!4m5!3m4!1s0x3bbad8a3b446124d:0x69e33a7e47e4081e!8m2!3d13.3908855!4d75.7213295?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
 						</div>
@@ -128,9 +208,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 245</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>It was a wounderful experience to visit the heighest peak in karnataka.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    It was a wounderful experience to visit the heighest peak in karnataka. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Baba+Budan+giri/@13.4228855,75.7616328,2901m/data=!3m1!1e3!4m5!3m4!1s0x3bbaded041b3796b:0x4c3709e3b1fa2b57!8m2!3d13.422865!4d75.7703876?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -157,9 +259,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 445</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>Visiting to Manikyadara waterfall was good experience and we enjoyed a lot.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    Visiting to Manikyadara waterfall was good experience and we enjoyed a lot. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Manikya+Dhara+Falls/@13.4223103,75.7680296,725m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbadf7b8be26caf:0x4137865607d0aa08!8m2!3d13.4223051!4d75.7702183?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>	
@@ -187,9 +311,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>trecking was awesome in this spot and people visintng to this place enjoyed a lot.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    It was a wounderful experience to visit the heighest peak in karnataka. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Ettina+Bhuja/@13.4223103,75.7680296,725m/data=!3m1!1e3!4m5!3m4!1s0x3ba4d05c6d5494d1:0xd15f208f60e1b2db!8m2!3d12.9785488!4d75.5666062?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -218,9 +364,32 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>The sunset near this big lake was woundefull.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    The sunset near this big lake was woundefull. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
+							
                             <a href="https://www.google.co.in/maps/place/Ayyana+kere/@13.4441026,75.8681447,3256m/data=!3m1!1e3!4m5!3m4!1s0x3bbadcc03d2d2291:0xea8217448e5fcb0e!8m2!3d13.4432234!4d75.8780855?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -245,9 +414,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>The Bike raiding for the place is best experience for us.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    The Bike raiding for the place is best experience for us. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Kemmangundi,+Karnataka+577129/@13.5500205,75.7412452,2899m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbae1ad75b03e01:0xf02202b4b92cffbc!8m2!3d13.55!4d75.75?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -274,9 +465,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>The god Vishnu in this temple is famous, the architecture was very good.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    The god Vishnu in this temple is famous, the architecture was very good.
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Sri+Veeranarayana+Swamy+Temple+(Trikutaachala)/@13.282035,75.9934991,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbac92daaa6a301:0xb3c742b07733cb8!8m2!3d13.2820253!4d75.995684?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -302,9 +515,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>It is one of the well known place for trecking with some group of people, we have to take some precationary measures before trecking.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    It is one of the well known place for trecking with some group of people, we have to take some precationary measures before trecking.
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Kudremukh+Peak+Top/@13.1261726,75.271858,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbb4b37789bd275:0xfec569106a58ee25!8m2!3d13.1261674!4d75.2740467?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -332,9 +567,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 23.05.2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>It is one of most visiting temple in chikkamagaluru, also called Dakshina Kashi.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    It is one of most visiting temple in chikkamagaluru, also called Dakshina Kashi. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Kalasa/@13.2327481,75.3612984,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbb363d00000001:0x217449857d13d07d!8m2!3d13.2327429!4d75.3634871?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                          </div>
                     </div>
@@ -361,9 +618,31 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="col-md-12"  style="padding-top:1%;">
-                                <div class="abc">
-							   <p>It is one of big rock surrounded by greenary and coffee plantation, the weather in this area was awesome.</p></div></div>
+                            <div class="container">
+                                <div class="row">
+                                <div class="faq-wrapper">
+                                <div class="faq-inner">
+                                <div class="faq-item">
+                                    <h5>
+                                        Review 
+                                    <span class="faq-plus">&plus;</span>
+                                    </h5>
+                                <div class="faq-body">
+                                    It is one of big rock surrounded by greenary and coffee plantation, the weather in this area was awesome. 
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <script type="text/javascript">
+                                $(".faq-plus").on('click',function(){
+                                $(this).parent().parent().find('.faq-body').slideToggle();
+                                });
+                                </script>
+                                </body>
                             <a href="https://www.google.co.in/maps/place/Bandekallu+Homestay/@13.3417087,75.6639006,725m/data=!3m2!1e3!4b1!4m8!3m7!1s0x3bbb264adcdfa299:0xe49a9b6d61a33de3!5m2!4m1!1i2!8m2!3d13.3417035!4d75.6660893?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         <br> 
                         </br>

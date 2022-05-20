@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"> -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></scrip>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,48 +34,6 @@
     </script>
     <script src="main.js"></script>
     
-    <style type="text/css">
-        body{
-          background:white;
-        }
-        .header{
-          border-radius: 10px 10px 0px 0px;
-          padding: 5px 0px;
-          background:black;
-          color:white;
-          width: 100%;
-          display: flex;
-          align-content:center;
-          justify-content:center;
-        }
-        .faq-item{
-          margin-bottom: 5px;
-          margin-top: 5px;
-        }
-        .faq-body{
-          display: none;
-          margin-top: 10px;
-        }
-        .faq-wrapper{
-          width: 80%;
-          margin: 0 auto;
-        }
-        .faq-inner{
-          padding: 10px;
-          background: aliceblue;
-        }
-        .faq-plus{
-          float: right;
-          font-size: 1em;
-          line-height: 0.5em;
-          cursor: pointer;
-        }
-        hr{
-          background-color: gray;
-        }
-      </style>
-
-
 </head>
 
 <body>
@@ -155,34 +114,27 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 34K</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-        <div class="row">
-          <div class="faq-wrapper">
-            <div class="faq-inner">
-              <div class="faq-item">
-                <h5>
-                  Review 
-                  <span class="faq-plus">&plus;</span>
-                </h5>
-                <div class="faq-body">
-                 In the destination page we already given the map link(visit with map logo) which connects the particular place from your current place. 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <script type="text/javascript">
-        $(".faq-plus").on('click',function(){
-          $(this).parent().parent().find('.faq-body').slideToggle();
-        });
-      </script>
-    </body>
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+
                             <a href="https://www.google.co.in/maps/place/Mullayanagiri+Peak/@13.3911296,75.7193376,725m/data=!3m1!1e3!4m5!3m4!1s0x3bbad8a3b446124d:0x69e33a7e47e4081e!8m2!3d13.3908855!4d75.7213295?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
-						</div>
                     
                     <div style="padding-top:50px;padding-left:50px; font-family:cursive;" class="row">
                         <div class="col-md-6">
@@ -208,32 +160,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 245</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    It was a wounderful experience to visit the heighest peak in karnataka. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
-                            <a href="https://www.google.co.in/maps/place/Baba+Budan+giri/@13.4228855,75.7616328,2901m/data=!3m1!1e3!4m5!3m4!1s0x3bbaded041b3796b:0x4c3709e3b1fa2b57!8m2!3d13.422865!4d75.7703876?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
+                            </div>                            <a href="https://www.google.co.in/maps/place/Baba+Budan+giri/@13.4228855,75.7616328,2901m/data=!3m1!1e3!4m5!3m4!1s0x3bbaded041b3796b:0x4c3709e3b1fa2b57!8m2!3d13.422865!4d75.7703876?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
 
@@ -259,31 +203,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 445</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    Visiting to Manikyadara waterfall was good experience and we enjoyed a lot. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Manikya+Dhara+Falls/@13.4223103,75.7680296,725m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbadf7b8be26caf:0x4137865607d0aa08!8m2!3d13.4223051!4d75.7702183?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>	
@@ -311,31 +248,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    It was a wounderful experience to visit the heighest peak in karnataka. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Ettina+Bhuja/@13.4223103,75.7680296,725m/data=!3m1!1e3!4m5!3m4!1s0x3ba4d05c6d5494d1:0xd15f208f60e1b2db!8m2!3d12.9785488!4d75.5666062?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -364,32 +294,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    The sunset near this big lake was woundefull. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
-							
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Ayyana+kere/@13.4441026,75.8681447,3256m/data=!3m1!1e3!4m5!3m4!1s0x3bbadcc03d2d2291:0xea8217448e5fcb0e!8m2!3d13.4432234!4d75.8780855?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -414,31 +336,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 3.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    The Bike raiding for the place is best experience for us. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Kemmangundi,+Karnataka+577129/@13.5500205,75.7412452,2899m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbae1ad75b03e01:0xf02202b4b92cffbc!8m2!3d13.55!4d75.75?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -465,31 +380,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    The god Vishnu in this temple is famous, the architecture was very good.
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Sri+Veeranarayana+Swamy+Temple+(Trikutaachala)/@13.282035,75.9934991,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbac92daaa6a301:0xb3c742b07733cb8!8m2!3d13.2820253!4d75.995684?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -515,31 +423,24 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    It is one of the well known place for trecking with some group of people, we have to take some precationary measures before trecking.
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Kudremukh+Peak+Top/@13.1261726,75.271858,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbb4b37789bd275:0xfec569106a58ee25!8m2!3d13.1261674!4d75.2740467?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         </div>
                     </div>
@@ -567,34 +468,28 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 23.05.2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    It is one of most visiting temple in chikkamagaluru, also called Dakshina Kashi. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Kalasa/@13.2327481,75.3612984,726m/data=!3m2!1e3!4b1!4m5!3m4!1s0x3bbb363d00000001:0x217449857d13d07d!8m2!3d13.2327429!4d75.3634871?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                          </div>
                     </div>
+                    <hr>
 					
 					 <div style="padding-top:50px;padding-left:50px; font-family:cursive;" class="row">
                         <div class="col-md-6">
@@ -610,6 +505,7 @@
 
                             </figure>
                         </div>
+                        <hr>
                         <div style="padding-top:2%;padding-left:50px" class="col-md-6">
                             <h4><a href="#"><h2 style="color:darkred;">Bandekal gudda :</h2><br> BandeKallu Gudda provides a beautiful hiking trails around the Mallandur area, in close proximity to Muthodi. “Bande Kallu Gudda” is an interesting hiking place from Chikmagalur. Surrounded by coffee plantations, the road will turn into a steep gully-eroded jeep track and gains significant elevation within a km of distance.</a></h4>
                             <br>
@@ -618,104 +514,32 @@
                                 <button class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i> 345</button>
                             </div>
                             <p>Posted on : 15-05-2022</p>
-                            <div class="container">
-                                <div class="row">
-                                <div class="faq-wrapper">
-                                <div class="faq-inner">
-                                <div class="faq-item">
-                                    <h5>
-                                        Review 
-                                    <span class="faq-plus">&plus;</span>
-                                    </h5>
-                                <div class="faq-body">
-                                    It is one of big rock surrounded by greenary and coffee plantation, the weather in this area was awesome. 
+                            <div class="accordion-content">
+                                 <div class="accordion-item">
+                                    <header class="item-header">
+                                        <h4 class="item-question">
+                                            Review
+                                        </h4>
+                                        <div class="item-icon">
+                                            <i class='fa fa-angle-down'></i>
+                                        </div>
+                                    </header>
+                                    <div class="item-content">
+                                    <p class="item-answer" style="font-size:18px;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                </div>
-                                <br>
-                                <br>
-                                <script type="text/javascript">
-                                $(".faq-plus").on('click',function(){
-                                $(this).parent().parent().find('.faq-body').slideToggle();
-                                });
-                                </script>
-                                </body>
+                            </div>
                             <a href="https://www.google.co.in/maps/place/Bandekallu+Homestay/@13.3417087,75.6639006,725m/data=!3m2!1e3!4b1!4m8!3m7!1s0x3bbb264adcdfa299:0xe49a9b6d61a33de3!5m2!4m1!1i2!8m2!3d13.3417035!4d75.6660893?hl=en" target="_blank">visit<span style="color:blue; font-size:50px;" class="fa fa-map-marker checked"></span></a>
                         <br> 
                         </br>
                         </div>
                     </div>
-                    
-                    <div style="padding-top:50px;padding-left:50px" class="row">
-                        <div class="col-md-12" style="text-align: center;" >
-                            <div class="container py-5 main" >
-                                <div class="row">
-                                    <div class="col-lg-12" >
-                    <h2 id="fh2">WE APPRECIATE YOUR REVIEW!</h2>
-<h6 id="fh6">Your review will help us to improve our web hosting quality products, and customer services.</h6>
-
-
-<form id="feedback" action="">
-  <div class="pinfo">Your personal info</div>
-  
-<div class="form-group">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-user"></i></span>
-  <input  name="name" placeholder="Your name" type="text" required>
-  </div>
-</div>
-
-<div class="form-group">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-    <input name="email" type="email" pattern=".+@gmail\.com" placeholder="your mail id" required>
-     </div>
-</div>
-
- <div class="pinfo">Rate our overall services.</div>
-  
-
-<div class="form-group">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-star"></i></span>
-   <select placeholder="rate out of five" id="rate" required>
-      <option value="1star">1</option>
-      <option value="2stars">2</option>
-      <option value="3stars">3</option>
-      <option value="4stars">4</option>
-      <option value="5stars">5</option>
-    </select>
-    </div>
-</div>
-
- <div class="pinfo">Write your feedback.</div>
-  
-
-<div class="form-group">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
-  <textarea class="form-control" id="review" rows="3" required></textarea>
- </div>
-</div>
-
- <button type="submit" class="btn btn-primary">Submit</button>
-
-
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-					
-					
-               
 
     <footer>
-
+        <section classs="footer-top">
             <div class="container">
                 <h2  style="font-family:cursive;">Chikkamagaluru</h2>
                 <div class="row text-center text-lg-left">
@@ -740,9 +564,9 @@
                 </div>
 
             </div>
-            <!-- /.container -->
-        <!-- </section> -->
-        <div  class="footer-bottom">
+            
+        </section>
+        <section  class="footer-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -751,10 +575,9 @@
                             <li class="hidden">/</li>
                             <li><a href="about.html">About-us</a></li>
                             <li class="hidden">/</li>
-
                             <li><a href="destinations.html">Destinations</a></li>
                             <li class="hidden">/</li>
-                            <li><a href="gallery.html">Food</a></li>
+                            <li><a href="food.html">Food</a></li>
                             <li class="hidden">/</li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -762,7 +585,7 @@
 
                 </div>
             </div>
-
+            </section>
     </footer>
 
     <a href="javascript:" id="return-to-top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>

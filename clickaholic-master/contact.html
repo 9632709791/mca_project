@@ -33,46 +33,7 @@
     </script>
     <script src="main.js"></script>
     
-    <style type="text/css">
-        body{
-          background:white;
-        }
-        .header{
-          border-radius: 10px 10px 0px 0px;
-          padding: 5px 0px;
-          background:black;
-          color:white;
-          width: 100%;
-          display: flex;
-          align-content:center;
-          justify-content:center;
-        }
-        .faq-item{
-          margin-bottom: 5px;
-          margin-top: 5px;
-        }
-        .faq-body{
-          display: none;
-          margin-top: 10px;
-        }
-        .faq-wrapper{
-          width: 80%;
-          margin: 0 auto;
-        }
-        .faq-inner{
-          padding: 10px;
-          background: aliceblue;
-        }
-        .faq-plus{
-          float: right;
-          font-size: 1em;
-          line-height: 0.5em;
-          cursor: pointer;
-        }
-        hr{
-          background-color: gray;
-        }
-      </style>
+    
 </head>
 
 <body>
@@ -117,35 +78,33 @@
              <p style="text-align:center;">If you have any questions on places of Chikkamagaluru please feel free to contact us,our team will get in contact with you.</p>
 
     </div>
-<div class="container py-5 main" style="background-color:black;">
+
+
+
+    
+    <div class="container py-5 main" style="background-color:black;">
       <div class="row" style="background-color:black;">
           <div class="col-lg-12" >
-              <form >
+              <form>
                   <div class="form-group row">
                       <div class="col-lg-6">
-                          <input type="text" name="text1" placeholder="Your Name" required>
+                          <input type="text" class="form-control" placeholder="Your Name" required>
                       </div>
                           <div class="col-lg-6">
-                            <input type='email' pattern=".+@gmail\.com" placeholder="email id" name='text1'/>
-                           <!-- <input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/> -->
+                          <input type="text" class="form-control" placeholder="Your Email id" required>
                       </div>
-                    </br>
-                    <br>
                       <div class="col-lg-12">
-                          <input type="number"  placeholder="Your Phone Number only" required>
+                          <input type="number" class="form-control" placeholder="Your Phone Number" required>
                       </div>
                   </div>
-                  <br>
                   <div class="form-group row">
                       <div class="col-lg-12">
-                          <textarea type="text" placeholder="your Message" rows="8" required></textarea>
+                          <textarea type="text" class="form-control" placeholder="your Message" rows="8" required></textarea>
                       </div>
                   </div>
-                  <br>
 				  <div class="row">
                                         <div class="col-xs-12 col-md-12 form-group">
-                                            <input class="btn btn-success" type="submit" name="submit" value="submit" > Submit</input>
-                                        </div>
+                                            <button class="btn btn-success" type="submit"> Submit</button>
                                         </div>
 
               </form>
@@ -153,7 +112,6 @@
       </div>
      </div>
   </div>
-
  <div class="container py-5 main">
     <div align="center">
     <section class="blog">
@@ -206,57 +164,77 @@
 
 	</div>
 
-    <div class="container">
-        <div class="row">
-          <div class="faq-wrapper">
-            <div class="header">
-              <h1>FAQs</h1>
-            </div>
-            <div class="faq-inner">
-              <div class="faq-item">
-                <h5>
-                  How can I reach the places?
-                  <span class="faq-plus">&plus;</span>
-                </h5>
-                <div class="faq-body">
-                 In the destination page we already given the map link(visit with map logo) which connects the particular place from your current place. 
-                </div>
-              </div>
-              <hr>
-              <div class="faq-item">
-                <h5>
-                  Which are the different verieties of food available?
-                  <span class="faq-plus">&plus;</span>
-                </h5>
-                <div class="faq-body">
-                  In chikkamagaluru most of all the types of foods are available like veg, non-veg, north indian, south indian, different types of chats, different flavoured teas, verities of coffees are available.
-                </div>
-              </div>
-              <hr>
-              <div class="faq-item">
-                <h5>
-                  What is the special in chikkamagaluru?
-                  <span class="faq-plus">&plus;</span>
-                </h5>
-                <div class="faq-body">
-                  Chikkamagaluru is the mixture of land, snow, hills, estates having awesome weather in most of the seaason contains historical, adventure, trecking, romantic places and also it is famaous for different type of chats, verities of coffee and tea.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="accordion-content">
+  <h2>FAQ</h2>
+
+  <div class="accordion-item">
+    <header class="item-header">
+      <h4 class="item-question">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+      </h4>
+      <div class="item-icon">
+        <i class='bx bx-chevron-down'></i>
       </div>
-      <br>
-      <br>
-      <script type="text/javascript">
-        $(".faq-plus").on('click',function(){
-          $(this).parent().parent().find('.faq-body').slideToggle();
-        });
-      </script>
-    </body>
-  </html>
-
-
+    </header>
+    <div class="item-content">
+      <p class="item-answer">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elitl
+      </p>
+      <p class="item-answer">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <header class="item-header">
+      <h4 class="item-question">
+        Lorem ipsum dolor sit amet?
+      </h4>
+      <div class="item-icon">
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </header>
+    <div class="item-content">
+      <p class="item-answer">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.      </p>
+      <p class="item-answer">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <header class="item-header">
+      <h4 class="item-question">
+Lorem ipsum dolor sit amet, consectetur?</h4>
+      <div class="item-icon">
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </header>
+    <div class="item-content">
+      <p class="item-answer">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <header class="item-header">
+      <h4 class="item-question">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+      </h4>
+      <div class="item-icon">
+        <i class='bx bx-chevron-down'></i>
+      </div>
+    </header>
+    <div class="item-content">
+      <p class="item-answer">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <p class="item-answer">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
 
 
 <!-- Support section Ended -->

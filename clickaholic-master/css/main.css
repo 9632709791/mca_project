@@ -668,6 +668,7 @@ footer {
     background-position: top;
     background-size: cover;
     font-family: 'Playfair Display', serif;
+    width:100%;
 }
 
 footer .footer-top {
@@ -682,7 +683,7 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom .hidden {
-    padding: 0 10px;
+    padding: 0 0px;
 }
 
 footer .footer-bottom ul li a {

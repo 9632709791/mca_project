@@ -25,6 +25,7 @@ body {
     overflow-x: hidden;
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
+    text-align:justify;
 }
 
 body,
@@ -299,7 +300,7 @@ nav {
     cursor: pointer;
     display: inline-block;
     position: relative;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 .carousel-caption .btn-primary span:after {
@@ -308,7 +309,7 @@ nav {
     opacity: 0;
     top: -13px;
     right: -20px;
-    transition: 0.5s;
+    transition: 0.1s;
     font-size: 28px;
 }
 
